@@ -20,9 +20,7 @@ footer{
   display: flex;
   justify-content: center;
 }
-header{
-	padding: 10px;
-}
+
 .head{
 	padding: 2px;
 	border: 5px solid #FFFFFF;
@@ -33,6 +31,13 @@ header{
 	padding-left: 5px; 
 	display: flex;
 
+}
+.left{
+	float: left;
+	padding: 5px; 
+}
+.right{
+	text-align: left; 
 }
 .pic{
 	display: block; 
@@ -55,6 +60,11 @@ height: 200px;
 .responsive{
 	width: 100%;
 	height: auto;
+}
+.github{
+	position: fixed; 
+  	bottom: 50px; 
+ 	right: 30px;  
 }
 .formbox{
 	position: fixed; 
@@ -113,6 +123,15 @@ margin: 20px 0;
   color: #D599A2; 
 	text-align: center;
 	font-weight: normal;
+
+}
+.des{
+	max-width: 800px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center; 
+	margin: 0 auto; 
+	padding: 10px #F2D2D5; 
+	border: 0 5px 0 5px solid #F2D2D5; 
 
 }
 .hey{
