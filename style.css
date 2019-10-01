@@ -57,10 +57,10 @@ body {
 height: 200px;
 /*border: 2px solid #DDDDDD; */
 }
-.responsive{
+/* .responsive{
 	width: 100%;
 	height: auto;
-}
+} */
 .github{
 	position: fixed; 
   	bottom: 50px; 
@@ -80,7 +80,21 @@ height: 200px;
 	color: #FFFFFF;
 	text-align: center; 
 }
-
+.vidwrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	}
+	
+	.vidwrap iframe,
+	.vidwrap object,
+	.vidwrap embed {
+	position: absolute;
+	top: 0;
+	left: 15px; 
+	width: 80%;
+	height: 80%;
+	}
 .wrap{
 	display: flex; 
 	padding: 5px;
@@ -133,6 +147,10 @@ margin: 20px 0;
 	padding: 10px #F2D2D5; 
 	border: 0 5px 0 5px solid #F2D2D5; 
 
+}
+.responsive{
+	max-width: 70%;
+	height: auto;
 }
 .hey{
 	display: flex;
