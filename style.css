@@ -1,16 +1,9 @@
 
-
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Muli', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Londrina Shadow', cursive;
-font-family: 'Jacques Francois Shadow', cursive;
-*/
 *{
 	margin: 0;
 	padding: 0; 
 	box-sizing: border-box; 
-
+	/* font-family: 'Open Sans', sans-serif; */
 }
 header, footer{
 	color: #414112;
@@ -19,6 +12,35 @@ header, footer{
 footer{
   display: flex;
   justify-content: center;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif; 
+}
+.top-bar{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around; 
+	margin-left: auto; 
+	margin-right: auto; 
+	max-width: 900px; 
+	border-bottom: solid 2px #D599A2; 
+	padding-bottom: 15px; 
+	margin-top: 30px; 
+	margin-bottom: 30px; 
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px; 
+}
+
+.top-link{
+	font-family: 'Josefin Sans', sans-serif; 
+}
+.top-link:hover{
+	background-color: palegoldenrod; 
+	color: turquoise; 
+}
+h3{
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .head{
@@ -50,17 +72,11 @@ footer{
 .copyright{
 	color: #FFFFFF;
 }
-body {
-  font-size: 18px;   
-}
+
 .box{
 height: 200px;
-/*border: 2px solid #DDDDDD; */
 }
-/* .responsive{
-	width: 100%;
-	height: auto;
-} */
+
 .github{
 	position: fixed; 
   	bottom: 50px; 
@@ -97,13 +113,6 @@ height: 200px;
   align-items: center;
 }
 
-
-/*body{
-	background-image: url("/Users/chelseyywang/Desktop/jewelrystore/whiterose.jpg"), url("/Users/chelseyywang/Desktop/jewelrystore/whiterose.jpg"); 
-	background-position: left 280px, right 280px;
-	background-repeat: repeat-y, repeat-y;
-	background-size: 10%, 10%;
-}*/
 .container {
   display: flex;
   justify-content: center;
@@ -127,7 +136,6 @@ margin: 20px 0;
 }
 .des{
 	max-width: 800px;
-	font-family: 'Josefin Sans', sans-serif;
 	text-align: center; 
 	margin: 0 auto; 
 	padding: 10px #F2D2D5; 
@@ -135,7 +143,8 @@ margin: 20px 0;
 
 }
 .responsive{
-	max-width: 70%;
+	max-width: 40%;
+	min-width: 300px; 
 	height: auto;
 }
 .hey{
@@ -222,7 +231,6 @@ h1 {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Josefin Sans', sans-serif;
-	/*"Roboto", Optima","Calibri", "Arial", sans-serif; */
 	font-weight: lighter; /*bold*/
 	font-style: normal; /*italicized*/
 }
@@ -290,6 +298,7 @@ h1, h2, h3, h4, h5 {
 }
 .parabox{
 	border: 10px solid #FFFFFF;
+	margin-bottom: 30px; 
 }
 .para{
 	border: 3px solid #D599A2;
