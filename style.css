@@ -73,6 +73,13 @@ h3{
 	display: flex;
 
 }
+.left-align{
+	text-align: left; 
+	font-family: 'Open Sans', sans-serif; 
+	max-width: 600px;
+	margin-left: auto; 
+	margin-right: auto; 
+}
 .left{
 	float: left;
 	padding: 5px; 
