@@ -48,13 +48,19 @@ h3{
 	flex-direction: row; 
 	padding: 50px; 
 }
+.col{
+	display: flex; 
+	flex-direction: column; 
+}
 
 .profile{
 	width: 20%; 
+	border-radius: 100%
 }
 .prof-des{
+	text-align: left; 
 	padding: 10px; 
-	align-items: flex-start; 
+	padding-left: 40px; 
 }
 .head{
 	padding: 2px;
