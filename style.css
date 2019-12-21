@@ -64,7 +64,7 @@ h3{
 .prof-des{
 	text-align: left; 
 	padding: 10px; 
-	padding-left: 40px; 
+	/* padding-left: 40px;  */
 }
 .head{
 	padding: 2px;
@@ -81,6 +81,7 @@ h3{
 	text-align: left; 
 	font-family: 'Open Sans', sans-serif; 
 	max-width: 600px;
+	padding: 10px; 
 	margin-left: auto; 
 	margin-right: auto; 
 }
