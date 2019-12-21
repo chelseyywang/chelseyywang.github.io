@@ -55,6 +55,10 @@ h3{
 
 .profile{
 	width: 20%; 
+	min-width: 30px; 
+	max-height: 200px; 
+	flex-wrap: wrap; 
+	height: auto; 
 	border-radius: 100%
 }
 .prof-des{
