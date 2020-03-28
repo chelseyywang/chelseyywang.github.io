@@ -81,12 +81,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -101,11 +101,12 @@ img {vertical-align: middle;}
 </head>
 <header>
 
-<img src = 'https://github.com/chelseyywang/chelseyywang.github.io/blob/master/chelseybg.png?raw=true' width = 100%>
+<img src = './chelseybg.png' width = 100%>
+
 </header>
 <body>
 
-<img src = 'https://github.com/chelseyywang/chelseyywang.github.io/blob/master/top.jpg?raw=true' width = 100%>
+<img src = './top.jpg' width = 100%>
 
 <div class = 'top-bar'>
   <div class = 'top-link'><a href='https://chelseyywang.github.io/' style='text-decoration: none; color: #D599A2'>home</a></div>
@@ -121,14 +122,93 @@ img {vertical-align: middle;}
   <div class='col'>
       <br>
   <h2>hello!</h2>
-  
+
   <p class = 'prof-des'>
-    Hi! I'm Chelsey Wang, a second year engineering student at UCLA planning on switching to Computer Science next quarter. I'm always excited to start on new cs projects and brainstorm fun ideas! Currently, I am on the SWE Dev Team, and the Executive Board for the Regents Scholar Society. </p>
-  </div> 
+    Hi! I'm Chelsey Wang, a second year engineering student at UCLA and I just recently got my Computer Science major approved! I'm always excited to start on new CS projects and brainstorm fun ideas! Currently, I am on the SWE Dev Team, and the Executive Board for the Regents Scholar Society. </p>
+  </div>
 <!-- </div>  -->
   <br></div>
 
-<div class='prod'><h3 class="pro">projects</h3></div>
+<div class='prod'><h3 class="pro">projects / activities</h3></div>
+<br>
+<h2 align='center'> --winter 2020--</h2>
+<br>
+<div class = 'des'>
+<h3><strong>partiic - frontend developer - react native</strong></h3>
+<br>
+<p><a href="https://github.com/mayaraman19/partiic_expo1">Partiic</a> is an app that helps Bruins advertise and find parties by condensing it all into one platform! Parties can also be rated and tagged so Bruins can find the perfect party to attend. Through this project, I taught myself React Native and navigating within a React Native app, learned more about the interaction between frontend and backend, and met a wonderful, new group of people to work with. </p>
+</div>
+<br>
+<div width="50%" class = 'center'>
+  <div class="row-partiic">
+      <img src = './pics/winter2020/map.png' class = 'responsive-app'>
+      <img src = './pics/winter2020/party.png' class = 'responsive-app'>
+      <img src = './pics/winter2020/login.png' class = 'responsive-app'>
+      <img src = './pics/winter2020/create.png' class = 'responsive-app'>
+
+  </div>
+</div>
+<br>
+<br>
+<div class = 'des'>
+<h3><strong>society of women engineers - web dev team - react</strong></h3>
+<br>
+<p>By getting accepted to join the SWE web dev team, I met and am continually inspired by the most intelligent women at UCLA. I learned how to work with a large, established code base, utilize better coding practices, as well as different git conventions. </p>
+</div>
+<br>
+<br>
+<div class = 'des'>
+<h3><strong>operating systems principles - coursework - C</strong></h3>
+<br>
+<p>one of the courses I took; we did C programs involving multiprocessing, multithreading, locks, server-client interactions, and hardware/sensor interactions. Click
+    <a href="http://web.cs.ucla.edu/~harryxu/courses/111/winter20/ProjectGuide/index.htm">here</a> for specs. Click
+    <a href="https://github.com/chelseyywang/operating-systems">here</a> for some of my code.
+  <br>
+  <br>
+  <div class = 'left-align'>
+  <strong>lab 0:</strong> file redirection
+  <br>
+  <strong>lab 1a:</strong> puts keyboard in non-canonical, no-echo mode and uses syscalls to mimic standard behavior. creates a new process that execs a shell to run commands from keyboard on; utilizes polling to accept input from keyboard and shell.
+  <br>
+  <strong>lab 2a:</strong> multithreaded program that uses mutexes, spin locks, and compare-and-swap to update a global variable and a global linked list.
+  <br>
+  <strong>lab 2b:</strong> divides the linked list from lab2b into smaller sublists so the entire linked list can be accessed simultaneously by multiple threads.
+  <br>
+  <strong>lab 4b:</strong> utilizes a beaglebone and polling to read from a temperature sensor and output temperatures, while reading commands from stdin and a button.
+  <br>
+  <strong>lab 4c:</strong> incorporates lab4b to interact with commands over a tcp and tls server.
+  <br>
+</div>
+  </p>
+</div>
+<br>
+<div class = 'des'>
+<h3><strong>rss goes to broomball</strong></h3>
+<br>
+<p class = 'rss-des'>as rss exec board I manage a committee, which helps me execute events to foster bonding and provide fun experiences for our rss community. </p>
+</div>
+<br>
+<div align="center" class = 'video'>
+  <div class="video-responsive">
+      <img src = './pics/winter2020/rssbroomball.JPG' class = 'responsive'>
+  </div>
+</div>
+<br>
+<br>
+<div class = 'des'>
+  <h3><strong>rss goes ice skating</strong></h3>
+  <br>
+  <p class = 'rss-des'>as rss exec board I manage a committee, which helps me execute events to foster bonding and provide fun experiences for our rss community. </p>
+  </div>
+  <br>
+  <div align="center" class = 'video'>
+    <div class="video-responsive">
+        <img src = './pics/winter2020/rssiceskating.jpg' class = 'responsive'>
+    </div>
+  </div>
+  <br>
+  <br>
+<br>
 <br>
 <h2 align='center'> --fall 2019--</h2>
 <br>
@@ -156,21 +236,21 @@ img {vertical-align: middle;}
   <div class = 'left-align'>
   <strong>week 1:</strong> emacs (text editor)
   <br>
-  <strong>week 2:</strong> shell scripting - one program extracts all hawaiian words; second program recursively searches through a given directory for files that are incorrectly named given a set of rules. 
+  <strong>week 2:</strong> shell scripting - one program extracts all hawaiian words; second program recursively searches through a given directory for files that are incorrectly named given a set of rules.
   <br>
   <strong>week 3:</strong> python argparse - re-create the shuf command
   <br>
-  <strong>week 4:</strong> C program - defrobnicate, sort, frobnicate, then outputs frobnicated input. 
+  <strong>week 4:</strong> C program - defrobnicate, sort, frobnicate, then outputs frobnicated input.
   <br>
-  <strong>week 5:</strong> C program - builds on previous assignment; but utilizes more syscalls and now works for input that is altered mid-run. 
+  <strong>week 5:</strong> C program - builds on previous assignment; but utilizes more syscalls and now works for input that is altered mid-run.
   <br>
   <strong>week 6:</strong> makefile
   <br>
-  <strong>week 7:</strong> git 
+  <strong>week 7:</strong> git
   <br>
-  <strong>week 8:</strong> ssh 
+  <strong>week 8:</strong> ssh
   <br>
-  <strong>week 9:</strong> python - within a repo, this program will topologically sort and output all commits. 
+  <strong>week 9:</strong> python - within a repo, this program will topologically sort and output all commits.
   <br>
 </div>
   </p>
@@ -225,7 +305,7 @@ img {vertical-align: middle;}
           <p> I started learning web design over the summer as a break from my summer classes, and here is one of the websites I made as practice, with DZKnow's approval.   </p>
           <h4><a href="https://chelseyywang.github.io/dz/">click here!</h4></a>
         </div>
-         <br> 
+         <br>
           <div align="center" class = 'video'>
             <div class="video-responsive">
                 <img src = 'https://github.com/chelseyywang/chelseyywang.github.io/blob/master/response.jpg?raw=true' max-width = 560px class = 'responsive'>
@@ -237,10 +317,10 @@ img {vertical-align: middle;}
 <a href = 'https://github.com/chelseyywang'><img src = 'https://image.flaticon.com/icons/svg/25/25231.svg' class = 'github' width = '50px'></a>
 </body>
 <footer>
-  
+
   <div class='foot'><div class = 'jossans'>
   <div class="copyright">
-    &copy; chelsey wang 
+    &copy; chelsey wang
   </div></div>
   <div class="jossans">
     <a href='https://www.instagram.com/chelseyywang/' style='text-decoration: none; color: #FFFFFF'>instagram</a>
