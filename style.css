@@ -1,7 +1,7 @@
 
 *{
 	margin: 0;
-	padding: 0;
+	padding: 5;
 	box-sizing: border-box;
 }
 header, footer{
@@ -12,6 +12,23 @@ footer{
   display: flex;
   justify-content: center;
 }
+
+.top-row{
+	display: flex;
+	flex-direction: row;
+}
+.top-row-pic{
+	padding-right: 20px;
+}
+@media screen and (max-width: 600px) {
+	.top-row{
+		display: flex;
+		flex-direction: column;
+	}
+	.top-row-pic{
+		padding-right: 0px;
+	}
+  }
 
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -53,18 +70,29 @@ h3{
 }
 
 .profile{
-	width: 20%;
-	min-width: 30px;
-	max-height: 200px;
+	/* width: 20%; */
+	/* min-width: 30px; */
+	/* max-height: 200px; */
 	flex-wrap: wrap;
 	height: auto;
-	border-radius: 100%
+	/* border-radius: 50% */
+}
+.col{
+	margin-top: auto;
+	padding-bottom: 20px;
+	margin-bottom: auto;
 }
 .prof-des{
 	text-align: left;
 	padding: 10px;
+
 	/* padding-left: 40px;  */
 }
+@media screen and (max-width: 600px) {
+	.prof-des{
+		text-align: center;
+	}
+  }
 .head{
 	padding: 2px;
 	border: 5px solid #FFFFFF;
