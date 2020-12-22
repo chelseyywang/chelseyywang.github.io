@@ -12,7 +12,10 @@ footer{
   display: flex;
   justify-content: center;
 }
-
+.swipe{
+    overflow:auto;
+    white-space:nowrap;
+}
 .top-row{
 	display: flex;
 	flex-direction: row;
